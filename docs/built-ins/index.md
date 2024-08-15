@@ -12,26 +12,26 @@ Scrybe provides many built-in attributes (fields and methods) to make your progr
 
 <hr>
 
-## [`scratch`](scratch)
+## [`scratch`](/built-ins/scratch)
 
 The builtin `scratch` provides fields and methods related to the entire project, or events that usually occur outside of the control of a certain target.
 
-## [`C`](c)
+## [`C`](/built-ins/c)
 
 The builtin `C` is special, as it simply provides constants that are meant to be used as arguments to built-in methods.
 
-## [`this`](this)
+## [`this`](/built-ins/this)
 
 The builtin `this` provides fields and methods related to the current target, with changes to it only affecting the target it's used in.
 
-## [`time`](time)
+## [`time`](/built-ins/time)
 
 The builtin `time` provides fields and methods related to timing, including work with the timer.
 
-## [`math`](math)
+## [`math`](/built-ins/math)
 
 The builtin `math` provides fields and methods related to mathematical operations, especially those outside of the standard numerical ones natively supported by Scrybe.
 
-## [`random`](random)
+## [`random`](/built-ins/random)
 
 The builtin `random` provides several methods related to random number generation and random sampling.
