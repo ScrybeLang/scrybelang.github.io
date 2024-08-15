@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="mx-auto text-center">
+  <h1>404</h1>
+
+  <strong>Page not found</strong>
+  <p>This page does not exist.</p>
+  <button class="btn btn-blue search-focus">Try searching?</button>
+</div>
+
+<script>
+
+const searchFocusButton = document.querySelector(".search-focus");
+const searchBar = document.getElementById("search-input");
+
+jtd.addEvent(searchFocusButton, "click", function() {
+    searchBar.focus();
+});
+
+</script>

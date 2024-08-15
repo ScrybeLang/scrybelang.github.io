@@ -1,0 +1,25 @@
+title: Scrybe Docs
+email: bituvocoding@gmail.com
+description: Scrybe is a text-based language implemented in Python that compiles into a Scratch project.
+domain: scrybelang.github.io
+url: https://scrybelang.github.io
+repository: ScrybeLang/Scrybe
+github_username: Bituvo
+
+aux_links:
+  "Scrybe on GitHub":
+    - "https://github.com/ScrybeLang/Scrybe"
+
+theme: just-the-docs
+highlighter: rouge
+
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      image: true
+
+exclude:
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
