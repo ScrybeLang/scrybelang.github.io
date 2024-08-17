@@ -43,16 +43,20 @@ Scrybe outputs logs when compiling a project. The valid log levels are:
 
 Enter any of these to see that log level and any logs with a higher log level. The default log level is `info`.
 
-### Color (`-color`)
+### Disable Color (`-nocolor`)
 
-By default, log output is colorized. To change this behavior, use with an argument of `on` or `off`.
+By default, log output is colorized. Use `-nocolor` to toggle this off.
+
+### Open Built (`-open`)
+
+Use `-open` to automatically open the generated `.sb3` file when it's built. This will use your operating system's default program for that extension.
 
 <hr>
 
 ## Examples
 
 ```shell
-scrybe ./project
+scrybe ./project -open
 ```
 
 ```shell
@@ -60,5 +64,5 @@ scrybe ./project -log debug
 ```
 
 ```shell
-scrybe "C:/Users/.../Desktop/My Project" -color off "my file name.sb3"
+scrybe "C:/Users/.../Desktop/My Project" -nocolor "my file name.sb3" -open
 ```
