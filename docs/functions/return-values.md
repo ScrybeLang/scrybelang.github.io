@@ -27,7 +27,7 @@ scratch.on_flag() {
         scratch.ask("What would you like to calculate the factorial of?");
         answer = scratch.answer;
 
-        say("The factorial of " .. answer .. " is " .. factorial(answer), 2);
+        say_for_seconds("The factorial of " .. answer .. " is " .. factorial(answer), 2);
     }
 }
 ```
