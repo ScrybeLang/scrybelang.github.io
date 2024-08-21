@@ -30,4 +30,4 @@ Broadcast messages are global to the Scratch project (because broadcasts are glo
 
 ## Function Return Output
 
-Each defined function gets a local variable that represents its output. Function return output variables have the prefix `fo_<function name>`.
+Each defined function gets a local variable that represents its output. Function return output variables have the prefix `fo_<function name>`. For functions defined in the stage, their return output variable is named `bfo_<function name>`.
