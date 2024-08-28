@@ -1,6 +1,6 @@
 title: Scrybe Docs
-email: bituvocoding@gmail.com
-description: Scrybe is a text-based language implemented in Python that compiles into a Scratch project.
+tagline: The other Scratch compiler
+description: Scrybe is a text-based language implemented in Python that transpiles into a Scratch project.
 domain: scrybelang.github.io
 url: https://scrybelang.github.io
 repository: ScrybeLang/Scrybe
