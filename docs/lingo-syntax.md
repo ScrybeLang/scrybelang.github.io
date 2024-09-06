@@ -7,14 +7,13 @@ nav_order: 4
 
 # Lingo
 
-Here are some terms used throughout this documentation and their meanings. This list is meant to help you better understand what is said:
- - "Statement" - Something that happens by itself within the code. These are separated by semicolons
- - "Expression" - Something that represents a value rather than a command. These are used within statements to input data to them
- - "Attribute" - Something that is a part of another object. These are accessed through the dot (`.`) operator
- - "Field" - A type of attribute that represents a value or piece of data
- - "Method" - A type of attribute that manipulates something in some way when invoked
- - "Symbol" - The name representing a variable or a list
- - "Normal variable" - Scratch has two types of variables, normal variables and lists; this is the former
+Here are some terms used throughout this documentation and their meanings. This list is meant to help you better understand what is said, but most experienced programmers should already know these:
+ * "Statement" - Something that happens by itself within the code. These are separated by semicolons
+ * "Expression" - Something that represents a value rather than a command. These are used within statements to input data to them
+ * "Attribute" - Something that is a part of another object. These are accessed through the dot (`.`) operator
+ * "Field" - A type of attribute that represents a value or piece of data
+ * "Method" - A type of attribute that returns a value when invoked
+ * "Function" - A type of attribute that exists to be used as a statement
 
 <hr>
 
@@ -22,7 +21,7 @@ Here are some terms used throughout this documentation and their meanings. This 
 
 Scrybe syntax is similar to that of languages like JavaScript.
 
-Statements (but not property declarations) are separated by a semicolon, and thus whitespace does not matter unless it is in a string. So, minified Scrybe code is possible.
+Statements (but not property declarations) are separated by a semicolon, and thus whitespace/newlines don't not matter unless in a string. So, minified Scrybe code is possible.
 
 All indexes are zero-based, unlike Scratch, which has one-based indexing. This rule applies everywhere except costume/backdrop numbers.
 
@@ -39,7 +38,7 @@ else
     say(i);
 ```
 
-Internally, Scrybe does not differ between strings and numbers, because usually neither does Scratch. However, if a user attempts to perform numerical operations on a string, they will be met with the number 0.
+Scrybe will automatically convert between numbers and booleans when necessary, but all other types perform as usual.
 
 Expressions may be enclosed in parentheses to alter precedence.
 

@@ -20,4 +20,10 @@ Install the Scrybe compiler with pip:
 pip install ScrybeLang
 ```
 
-Alternatively, you can download the latest release from [GitHub](https://github.com/ScrybeLang/Scrybe/releases/) or [PyPI](https://pypi.org/project/ScrybeLang/).
+Alternatively, you can download the latest release from [GitHub](https://github.com/ScrybeLang/Scrybe/releases/) or [PyPI](https://pypi.org/project/ScrybeLang/). In this case, navigate to Scrybe's root directory and run:
+
+```shell
+pip install -e .
+```
+
+to install Scrybe locally.

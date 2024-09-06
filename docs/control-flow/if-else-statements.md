@@ -29,7 +29,7 @@ else
 
 ```scrybe
 if (distance_to_center > world_radius) {
-    scale = world_radius / distance_to_center;
+    scale: num = world_radius / distance_to_center;
     this.x *= scale;
     this.y *= scale;
 }

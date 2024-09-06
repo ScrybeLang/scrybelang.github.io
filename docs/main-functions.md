@@ -34,21 +34,21 @@ Possible values for `style`:
 
 ## Looks
 
-| Function name                                                       | Function parameters  | Function description                  |
-| ------------------------------------------------------------------- | -------------------- | ------------------------------------- |
-| ![](/assets/looks_sayforsecs.png) `say_for_seconds`                 | `message`, `seconds` | Say `message` for `seconds` seconds   |
-| ![](/assets/looks_say.png) `say`                                    | `message`            | Say `message`                         |
-| ![](/assets/looks_thinkforsecs.png) `think_for_seconds`             | `message`, `seconds` | Think `message` for `seconds` seconds |
-| ![](/assets/looks_think.png) `think`                                | `message`            | Think `message`                       |
-| ![](/assets/looks_switchcostumeto.png) `set_costume`                | `costume`            | Switch costume to `costume`           |
-| ![](/assets/looks_nextcostume.png) `next_costume`                   | None                 | Switch to the next costume            |
-| ![](/assets/looks_switchbackdropto.png) `switch_backdrop`           | `backdrop`           | Switch backdrop to `backdrop`         |
-| ![](/assets/looks_nextbackdrop.png) `next_backdrop`                 | None                 | Switch to the next backdrop           |
-| ![](/assets/looks_cleargraphiceffects.png) `clear_graphics_effects` | None                 | Clear all graphical effects           |
-| ![](/assets/looks_show.png) `show`                                  | None                 | Show the sprite                       |
-| ![](/assets/looks_hide.png) `hide`                                  | None                 | Hide the sprite                       |
-| ![](/assets/looks_gotofrontback.png) `set_layer`                    | `layer`              | Send sprite to a certain layer        |
-| ![](/assets/looks_goforwardbackwardlayers.png) `change_layer`       | `change`             | Change current layer by `change`      |
+| Function name                                                      | Function parameters  | Function description                  |
+| ------------------------------------------------------------------ | -------------------- | ------------------------------------- |
+| ![](/assets/looks_sayforsecs.png) `say_for_seconds`                | `message`, `seconds` | Say `message` for `seconds` seconds   |
+| ![](/assets/looks_say.png) `say`                                   | `message`            | Say `message`                         |
+| ![](/assets/looks_thinkforsecs.png) `think_for_seconds`            | `message`, `seconds` | Think `message` for `seconds` seconds |
+| ![](/assets/looks_think.png) `think`                               | `message`            | Think `message`                       |
+| ![](/assets/looks_switchcostumeto.png) `set_costume`               | `costume`            | Switch costume to `costume`           |
+| ![](/assets/looks_nextcostume.png) `next_costume`                  | None                 | Switch to the next costume            |
+| ![](/assets/looks_switchbackdropto.png) `switch_backdrop`          | `backdrop`           | Switch backdrop to `backdrop`         |
+| ![](/assets/looks_nextbackdrop.png) `next_backdrop`                | None                 | Switch to the next backdrop           |
+| ![](/assets/looks_cleargraphiceffects.png) `clear_graphic_effects` | None                 | Clear all graphical effects           |
+| ![](/assets/looks_show.png) `show`                                 | None                 | Show the sprite                       |
+| ![](/assets/looks_hide.png) `hide`                                 | None                 | Hide the sprite                       |
+| ![](/assets/looks_gotofrontback.png) `set_layer`                   | `layer`              | Send sprite to a certain layer        |
+| ![](/assets/looks_goforwardbackwardlayers.png) `change_layer`      | `change`             | Change current layer by `change`      |
 
 Possible values for `layer`:
  - `C.FRONT`

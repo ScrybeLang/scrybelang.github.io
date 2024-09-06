@@ -12,8 +12,8 @@ Scrybe has 7 binary [numerical operators](numerical-operators), 5 binary [compar
 
 <hr>
 
-All numerical operators and concatenation can be used for in-place assignment on a non-list, e.g. `my_variable += 10` or `my_string ..= ", World!"`.
+All numerical operators can be used for in-place assignment on a number, e.g. `my_variable += 10` or `base **= exponent`.
 
 ## Concatenation
 
-String concatenation is done with two non-list variables and uses the symbol `..`, similarly to Lua.
+String concatenation is done with two strings and uses the symbol `..`, similarly to Lua.

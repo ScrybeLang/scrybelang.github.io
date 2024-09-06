@@ -25,5 +25,3 @@ while these are not:
 digits&letters_list
 TWO/THREE
 ```
-
-Note that these rules also apply to list names.

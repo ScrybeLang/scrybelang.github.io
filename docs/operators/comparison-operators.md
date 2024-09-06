@@ -18,9 +18,11 @@ Scrybe supports comparing two numbers with the following operators:
 | Greater than or equal to                  | `>=`   |
 | ![](/assets/operator_equals.png) Equal to | `==`   |
 
-Using the results of these comparisons with numerical operators will use either the number `0` or `1`, depending on its truthiness. For example:
+Each of these operators returns a boolean value, which can be casted to a number (`0` for `false` or `1` for `true`) if necessary. This allows you to do something like the following:
 
 ```scrybe
 my_variable = (2 < 3) * 5; // Will be 5
 my_variable = (4 < 3) * 5; // Will be 0
 ```
+
+For equality only, two strings can be compared like `string_1 == string_2`. String comparisons are case-insensitive due to Scratch limitations.

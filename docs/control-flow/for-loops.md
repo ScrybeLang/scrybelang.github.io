@@ -26,8 +26,8 @@ for (i = 0; i < 10; i += 1) {
 ```
 
 ```scrybe
-for (y = 0; y < 100; y += 10) {
-    for (x = 0; x < 100; x += 10) {
+for (y: num = 0; y < 100; y += 10) {
+    for (x: num = 0; x < 100; x += 10) {
         set_pos(x - 50, y - 50);
         say("Position: (x=" .. x .. ", y=" .. y .. ")");
         time.sleep(0.1);

@@ -36,13 +36,15 @@ In the second example, the filename would be `Jetpack Game.sb3`. Any characters 
 
 ## Global Variables
 
-By convention, global variables have all uppercase names, but this is not enforced by Scrybe. Global variables can be strings, numbers, lists, or even entire expressions. However, expressions must consist of literals. You cannot reference other variables when defining a global variable. Here are some examples of valid global variable declarations:
+By convention, global variables have all uppercase names, but this is not enforced by Scrybe. Global variables can be strings, numbers, lists, or even entire expressions. Here are some examples of valid global variable declarations:
 
 ```scrybe
-HUNDRED = 100;
-TWO_THIRDS = 2/3;
-MESSAGE = "Hello, World!";
-FIBONACCI = [1, 1, 2, 3, 5, 8, 13, 21];
+HUNDRED: num    = 100;
+THREE           = 3;
+TWO_THIRDS: num = 2 / THREE;
+MESSAGE: str    = "Hello, World!";
+THRESHOLD: bool = 5 > THREE;
+FIBONACCI[] = [1, 1, 2, 3, 5, 8, 13, 21];
 ```
 
 Hence their name, global variables are available (in scope) to each script inside of a project.

@@ -8,7 +8,7 @@ nav_order: 1
 
 # Numerical Operators
 
-Scrybe supports addition, subtraction, multiplication, division, and modulus. Additionally, exponentiation is supported, but this should be used sparingly because it currently takes many blocks to do each time with larger exponents, and thus is much more computationally expensive.
+Scrybe supports addition, subtraction, multiplication, division, and modulus. Exponentiation is also supported, and has been optimized to use as few blocks as possible. However, use this operation sparingly, because it can take many blocks to do each time.
 
 <hr>
 
