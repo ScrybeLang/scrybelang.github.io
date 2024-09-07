@@ -20,7 +20,7 @@ To actually return a value, simply use the `return` keyword as you would in most
 
 ```scrybe
 warp num function factorial(n) {
-    result = 1;
+    result: num = 1;
     for (i = n; i > 0; i -= 1) {
         result *= i;
     }
@@ -29,11 +29,12 @@ warp num function factorial(n) {
 }
 
 scratch.on_flag() {
-    while(true) {
+    while (true) {
         scratch.ask("What would you like to calculate the factorial of?");
-        answer = scratch.answer;
+        answer: str = scratch.answer;
+        result: num = factorial(answer);
 
-        say_for_seconds("The factorial of " .. answer .. " is " .. factorial(answer), 2);
+        say_for_seconds("The factorial of " .. answer .. " is " .. tostr(result), 2);
     }
 }
 ```
@@ -60,12 +61,12 @@ warp num function rshift(x, bits) // Returns a number
 ```
 
 ```scrybe
-warp bool is_on_top() // Returns a boolean
+warp bool function is_on_top() // Returns a boolean
     return this.y >= 0;
 ```
 
 ```scrybe
-warp str get_greeting(name) { // Returns a string
+warp str function get_greeting(name) { // Returns a string
     if (time.hour < 12) return "Good morning, " .. name .. "!";
     if (time.hour < 5)  return "Good afternoon, " .. name .. "!";
     return "Good evening, " .. name .. "!";
