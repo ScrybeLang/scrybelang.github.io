@@ -38,8 +38,6 @@ else
     say(i);
 ```
 
-Scrybe will automatically convert between numbers and booleans when necessary, but all other types perform as usual.
-
 Expressions may be enclosed in parentheses to alter precedence.
 
 ## Error Messages
