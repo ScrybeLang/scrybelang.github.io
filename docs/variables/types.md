@@ -17,7 +17,18 @@ Variables defined in Scrybe can be one of the following types:
 
 Strings are enclosed in double or single quotes and can be escaped with a backslash (`\`).
 
-If a variable is defined without a type, it will be a general variable. General variables act as a number, string, and a Boolean simultaneously, and can be used to avoid type restrictions. Each item in a list is automatically a general variable.
+General variables act as a number, string, and a Boolean simultaneously, and can be used to avoid type restrictions. Each item in a list is automatically a general variable.
+
+One can use the `tonum`, `tostr`, and `tobool` functions to convert between the three main types. They are available in the global namespace. The `tobool` function cannot convert a general variable to a boolean.
+
+## Declaration
+
+Variables must be explicitly declared before they can be used. If a variable is declared but no value is given (`my_number: num;`), then it will be assigned a default value depending on the declared type:
+
+ * Numbers are set to `0` by default
+ * Strings and general variables are set to an empty string (`""`) by default
+ * Booleans are set to `false` by default
+ * Lists are simply empty by default
 
 <hr>
 

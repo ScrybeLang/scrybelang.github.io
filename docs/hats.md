@@ -50,8 +50,8 @@ This hat is executed when the stage switches to a certain backdrop. Note that th
 This hat is executed when a certain value (the timer or microphone volume) exceeds a set threshold.
 
 Possible values for `value`:
- - `C.LOUDNESS`
- - `C.TIMER`
+ * `C.LOUDNESS`
+ * `C.TIMER`
 
 ## ![](/assets/event_whenbroadcastreceived.png) - `scratch.on_broadcast(<broadcast name>, [message])`
 

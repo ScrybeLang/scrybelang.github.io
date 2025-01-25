@@ -19,8 +19,8 @@ In most `for` loops, the post-iteration statement will increment the variable in
 Here are some examples of for loops:
 
 ```scrybe
-for (i = 0; i < 10; i += 1) {
-    say("I can count to " .. i + 1 .. "!");
+for (i: num = 0; i < 10; i += 1) {
+    say("I can count to " .. tostr(i + 1) .. "!");
     time.sleep(1);
 }
 ```
@@ -29,7 +29,7 @@ for (i = 0; i < 10; i += 1) {
 for (y: num = 0; y < 100; y += 10) {
     for (x: num = 0; x < 100; x += 10) {
         set_pos(x - 50, y - 50);
-        say("Position: (x=" .. x .. ", y=" .. y .. ")");
+        say("Position: (x=" .. tostr(x) .. ", y=" .. tostr(y) .. ")");
         time.sleep(0.1);
     }
 }

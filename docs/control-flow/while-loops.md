@@ -27,6 +27,6 @@ while (true) {
 
 ```scrybe
 while (time.timer < 10) {
-    say("It will be ten seconds in... " .. math.ceil(10 - time.timer) .. " seconds");
+    say("It will be ten seconds in... " .. tostr(math.ceil(10 - time.timer)) .. " seconds");
 }
 ```
